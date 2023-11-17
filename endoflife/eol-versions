@@ -1,0 +1,12 @@
+# List of Component Versions for End of Life check
+# Format [Name],[Version]  --  (Format is due to bash not supporting tuples)
+# Check applicable version formats per product here https://endoflife.date
+Ruby,3.2
+Rails,6.1
+Amazon-rds-postgresql,14
+Amazon-eks,1.26
+Nodejs,18
+React,18.2
+Yarn,1
+Redis,6.2
+
