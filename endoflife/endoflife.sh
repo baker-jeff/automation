@@ -1,7 +1,7 @@
 #/bin/bash
 #script to pull, compare, and report on lifecycle of used resources
 
-grep -v '^#' /maintenance/Command/config/eol-versions > /maintenance/Command/config/eol-versions.tmp && mapfile -t products < /maintenance/Command/config/eol-versions.tmp
+grep -v '^#' ./eol-versions > ./eol-versions.tmp && mapfile -t products < ./eol-versions.tmp
 eolcheck=60
 daydate=`date '+%d'`
 dowdate=`date '+%u'`
